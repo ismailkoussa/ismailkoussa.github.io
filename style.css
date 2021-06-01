@@ -79,3 +79,9 @@ img
     margin-left: 39px;
     margin-top: 50px;
 }
+#home
+{
+    width: 40px;
+    height: 40px;
+    float: left;
+}

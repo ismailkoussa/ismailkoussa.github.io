@@ -1,0 +1,33 @@
+#cont
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(254, 254, 254);
+}
+.writings
+{
+    color: rgb(148, 7, 124);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100vh;
+    font-size: 110%;
+}
+h2
+{
+    text-align: center;
+    color: rgb(126, 123, 125);
+}
+.titles
+{
+    font-size: 130%;
+    color: rgb(102, 100, 100);
+    font-weight: bold;
+    margin-left: 30px;
+}
+img
+{
+    width: 40px;
+    height: 40px;
+    float: left;
+}
