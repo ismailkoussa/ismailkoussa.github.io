@@ -3,6 +3,8 @@
     display: flex;
     flex-direction: column;
     background-color: rgb(254, 254, 254);
+    height: 100vh;
+    width: 200vh;
 }
 .writings
 {
@@ -11,23 +13,46 @@
     align-items: center;
     justify-content: center;
     width:100vh;
-    font-size: 110%;
+    font-size: 130%;
 }
 h2
 {
     text-align: center;
     color: rgb(126, 123, 125);
+    font-size: 148%;
 }
 .titles
 {
-    font-size: 130%;
-    color: rgb(102, 100, 100);
+    font-size: 140%;
     font-weight: bold;
     margin-left: 30px;
 }
-img
+#home
 {
     width: 40px;
     height: 40px;
     float: left;
+}
+#side
+{
+    display: flex;
+    flex-direction: row;
+    width:200vh;
+    height: 80%;
+}
+#mario
+{
+    width: 401px;
+    height: 411px;
+    margin-left: 30px;
+    margin-top: 90px;
+}
+a
+{
+    text-decoration: none;
+    color: rgb(47, 27, 161);
+}
+a:hover
+{
+    color: rgb(218, 14, 167)
 }
