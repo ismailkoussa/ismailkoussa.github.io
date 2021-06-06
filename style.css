@@ -39,7 +39,7 @@ h2
 {
     width: 30vh;
     height: 75vh;
-    margin-top: 50px;
+    margin-top: 49px;
     border-right: solid 0.1px;
     background-color: rgb(61, 58, 59);
     padding-left: 10px;
@@ -50,6 +50,13 @@ h2
 {
     display: flex;
     flex-direction: row;
+}
+#big
+{
+    display: flex;
+    flex-direction: column;
+    width: 200vh;
+    height: 100vh;
 }
 #em
 {
@@ -77,11 +84,37 @@ img
     width:  30vh;
     height: 72px;
     margin-left: 39px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 #home
 {
     width: 40px;
     height: 40px;
     float: left;
+}
+/*header part*/
+#header
+{
+    background-color: rgb(82, 80, 77);
+    width: 198vh;
+    height: 10vh;
+    color: hsl(40, 19%, 91%);
+    padding-top: 10px;
+    margin-left: 2vh;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row;
+}
+#web
+{
+    margin-left: 10px;
+}
+a
+{
+    color:rgb(236, 233, 227);
+    text-decoration: none;
+}
+#web, #go, #lp
+{
+    padding: 20px;
 }
