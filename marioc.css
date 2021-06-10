@@ -1,0 +1,34 @@
+iframe
+{
+     width: 200vh;
+     height: 90vh; 
+}
+#cont
+{
+    display: flex;
+    flex-direction: column;
+}
+/*header part*/
+#header
+{
+    background-color: rgb(82, 80, 77);
+    width: 100%;
+    height: 10vh;
+    color: hsl(40, 19%, 91%);
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+#web
+{
+    margin-left: 10px;
+}
+#header a
+{
+    color:rgb(238, 237, 236);
+    text-decoration: none;
+}
+#web, #go, #lp
+{
+    padding: 20px;
+}
