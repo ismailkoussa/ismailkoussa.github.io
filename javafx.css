@@ -13,24 +13,34 @@
     height: 90vh;
     align-items: center;
     justify-content: center;  
-    margin-top: 50vh;  
+    margin-top: 70vh;  
 }
 h2
 {
     color: rgb(238, 24, 227);
+    
 }
-
+#title
+{
+    font-size: 130%;
+    color: rgb(80, 72, 79);
+}
+#text
+{
+    margin-left: 50px;
+}
 /*header part*/
 #header
 {
     background-color: rgb(82, 80, 77);
-    width: 198vh;
+    width: 100%;
     height: 10vh;
     color: hsl(40, 19%, 91%);
     padding-top: 10px;
     margin-left: 2vh;
     display: flex;
     flex-direction: row;
+    margin-top: 0%;
 }
 #web
 {
